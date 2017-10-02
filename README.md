@@ -9,7 +9,9 @@ Macro example for [shadow-cljs](https://github.com/thheller/shadow-cljs)
 With hot code swapping support:
 
 ```bash
-yarn watch
+yarn
+yarn shadow-cljs watch server
+
 # another tty
 node target/main.js
 ```
@@ -17,7 +19,7 @@ node target/main.js
 ### Build
 
 ```bash
-yarn compile
+yarn shadow-cljs compile app
 ```
 
 Compiles to `target/`.
