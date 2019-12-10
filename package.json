@@ -13,6 +13,6 @@
   "devDependencies": {
     "shadow-cljs": "^2.0.4",
     "source-map-support": "^0.4.15",
-    "ws": "^3.0.0"
+    "ws": "^3.3.1"
   }
 }
